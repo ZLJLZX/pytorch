@@ -6,7 +6,7 @@ torch.manual_seed(0)
 X = torch.tensor([[1,2],[2,3],[4,6],[3,1]],dtype=torch.float32)
 y = torch.tensor([[8],[13],[26],[9]],dtype=torch.float32)
 # y = 2*x1 + 3 * x2
-
+#gradient
 w = torch.rand(2,1, requires_grad=True, dtype=torch.float32)
 
 iter_count = 500
