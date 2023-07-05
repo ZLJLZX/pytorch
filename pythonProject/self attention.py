@@ -29,3 +29,8 @@ att = Self_Attention(dim=2, dk=2, dv=3)
 x = torch.rand((1, 4, 2))
 output = att(x)
 print(output)
+
+
+
+
+#inputs embeding size = positional embedding size(维度相同 需要相加)
