@@ -5,14 +5,14 @@ import torchvision.models as models
 alexnet = models.alexnet(weights=models.AlexNet_Weights.DEFAULT)
 # print(alexnet)
 
-# 1、----- 删除网络的最后一层 -----
-# del alexnet.classifier
-# del alexnet.classifier[6]
+# 1、----- 删除网络的最后一层 -----   del
+# del alexnet.classifier  最后整层
+# del alexnet.classifier[6] 最后模块某一层
 # print(alexnet)
 
 
 # 2、----- 删除网络的最后多层 -----
-# alexnet.classifier = alexnet.classifier[:-2]
+# alexnet.classifier = alexnet.classifier[:-2]   类似numpy切片 赋值
 # print(alexnet)
 
 
@@ -31,5 +31,5 @@ alexnet.classifier[6] = nn.Linear(in_features=4096, out_features=1024)
 block = nn.Sequential(nn.ReLU(inplace=True),
                       nn.Linear(in_features=1024, out_features=20))
 alexnet.add_module('block', block)
-print(alexnet)
+print(alexnet) 
 

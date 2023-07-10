@@ -1,11 +1,11 @@
-import torchvision.models as models
+import torchvision.models as models #官方预训练模型
 from torchsummary import summary
 import torch
 
 
 # https://pytorch.org/vision/stable/models.html
-# alexnet = models.alexnet(weights=None)
-# resnet50 = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
+# alexnet = models.alexnet(weights=None) #只有骨架 没有权重
+# resnet50 = models.resnet50(weights=models.ResNet50_Weights.DEFAULT) #后面加版本号  不知道就用默认版本 default
 # print(resnet50)
 
 
