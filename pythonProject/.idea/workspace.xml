@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7354abd7-9d77-456f-bb65-7a895b6c2c8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7354abd7-9d77-456f-bb65-7a895b6c2c8e" name="Changes" comment="transfer learning update">
+      <change afterPath="$PROJECT_DIR$/l12_liu_er.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l13_liu_er.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l2_LIU_ER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l2_homwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l3_LIU_ER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l4_liu_er.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l5_liu_er.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l7_liu_er.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer learning/AlexNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer learning/增减层AlexNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer learning/save_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer learning/save_load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer learning/transfer_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer learning/transfer_learning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RfwVe8WPYvPDnbpfaNZC0fvsaT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,12 +99,25 @@
       <workItem from="1687656600286" duration="320000" />
       <workItem from="1687656935734" duration="17547000" />
       <workItem from="1688991886787" duration="2753000" />
-      <workItem from="1688996628534" duration="2148000" />
+      <workItem from="1688996628534" duration="2196000" />
+      <workItem from="1698708961511" duration="17580000" />
     </task>
+    <task id="LOCAL-00001" summary="transfer learning update">
+      <created>1688999324676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688999324676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="transfer learning update" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfer learning update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -112,15 +131,22 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$l4_liu_er.coverage" NAME="l4_liu_er Coverage Results" MODIFIED="1698714988855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$dataset_dataloader.coverage" NAME="dataset dataloader Coverage Results" MODIFIED="1687681515959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
-    <SUITE FILE_PATH="coverage/pythonProject$logistic_regression.coverage" NAME="logistic regression Coverage Results" MODIFIED="1687679158748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1687660130389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
-    <SUITE FILE_PATH="coverage/pythonProject$autograd.coverage" NAME="autograd Coverage Results" MODIFIED="1687669277504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
     <SUITE FILE_PATH="coverage/pythonProject$tensor_idx.coverage" NAME="tensor idx Coverage Results" MODIFIED="1687662007743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
-    <SUITE FILE_PATH="coverage/pythonProject$loss_optimizer_module.coverage" NAME="loss optimizer module Coverage Results" MODIFIED="1687674251854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
-    <SUITE FILE_PATH="coverage/pythonProject$linear_regression.coverage" NAME="linear regression Coverage Results" MODIFIED="1687670562856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
-    <SUITE FILE_PATH="coverage/pythonProject$change_shape.coverage" NAME="change shape Coverage Results" MODIFIED="1687663132012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$l12_liu_er.coverage" NAME="l12_liu_er Coverage Results" MODIFIED="1698739988552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$l5_liu_er.coverage" NAME="l5_liu_er Coverage Results" MODIFIED="1698716147045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$l7_liu_er.coverage" NAME="l7_liu_er Coverage Results" MODIFIED="1698720364445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$torch_linear.coverage" NAME="torch linear Coverage Results" MODIFIED="1687670953903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
     <SUITE FILE_PATH="coverage/pythonProject$tensor_cal.coverage" NAME="tensor cal Coverage Results" MODIFIED="1687661483857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
+    <SUITE FILE_PATH="coverage/pythonProject$logistic_regression.coverage" NAME="logistic regression Coverage Results" MODIFIED="1687679158748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
+    <SUITE FILE_PATH="coverage/pythonProject$autograd.coverage" NAME="autograd Coverage Results" MODIFIED="1687669277504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$l3_LIU_ER.coverage" NAME="l3_LIU_ER Coverage Results" MODIFIED="1698714407864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$l2_homwork.coverage" NAME="l2_homwork Coverage Results" MODIFIED="1698710761806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$loss_optimizer_module.coverage" NAME="loss optimizer module Coverage Results" MODIFIED="1687674251854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
+    <SUITE FILE_PATH="coverage/pythonProject$linear_regression.coverage" NAME="linear regression Coverage Results" MODIFIED="1687670562856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
+    <SUITE FILE_PATH="coverage/lesson1_tensor_py$LIU_ER.coverage" NAME="LIU_ER Coverage Results" MODIFIED="1698710475706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$change_shape.coverage" NAME="change shape Coverage Results" MODIFIED="1687663132012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/jbr/bin/D/Users/LZX/PycharmProjects/pythonProject" />
   </component>
 </project>
